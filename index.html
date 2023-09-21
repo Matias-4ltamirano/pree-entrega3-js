@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pepe el prestamista</title>
+</head>
+
+<body>
+  <main>
+    <h1>Pepe el prestamista</h1>
+
+    <div>
+      <div>
+        <label for="dni">
+          DNI:<br />
+          <input type="text" name="dni" id='dni'>
+        </label>
+      </div>
+      
+      <div>
+        <label for="monto">
+          Monto:<br />
+          <input type="text" name="monto" id='monto'>
+        </label>
+      </div>
+      
+      <div>
+        <label for="cuotas">
+          Cuotas:<br />
+          <input type="text" name="cuotas" id='cuotas'>
+        </label>
+      </div>
+      
+      <br />
+      
+      <button id='botonCalcular'>Calcular</button>
+      
+      <div>
+        <p>
+          Resultado:<br/>
+          <span id="resultado"></span>
+        </p>
+      </div>
+    </div>
+
+    <button id='botonEliminarGuardados'>Eliminar prestamos guardados</button>
+  </main>
+
+  <script src='prestamo.js'></script>
+</body>
+
+</html>
